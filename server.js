@@ -12,7 +12,7 @@ dotenv.config();
 
 const app = express();
 const PORT = process.env.PORT || 5000;
-const stripe = new Stripe(process.env.STRIPE_SECRET_KEY); // 🔹 Leer clave desde .env
+//const stripe = new Stripe(process.env.STRIPE_SECRET_KEY); // 🔹 Leer clave desde .env
 
 // Cargar credenciales de Firebase
 const serviceAccount = JSON.parse(
